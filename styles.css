@@ -2,5 +2,5 @@
 /*Flexbox most likely needed to align all buttons horizontally*/
 /*<button> or <a> for clickable links?*/
 .website {
-  margin-bottom: green, 4px;
+  border-top: green solid 4px;
 }
