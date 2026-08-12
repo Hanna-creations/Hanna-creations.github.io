@@ -4,3 +4,15 @@
 .website {
   border: 1000px solid red;
 }
+
+.topicons {
+  margin: 15px 45px
+}
+
+.button a {
+  color: #2a2a2a
+  border: 5px solid white;
+  padding: 25px;
+  text-decoration: none;
+}
+
