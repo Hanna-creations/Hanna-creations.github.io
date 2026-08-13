@@ -2,10 +2,6 @@
 /*Flexbox most likely needed to align all buttons horizontally*/
 /*<button> or <a> for clickable links?*/
 
-.topicons {
-  margin: 15px 45px;
-}
-
 .button a {
   color: #2a2a2a;
   border: 5px solid white;
@@ -21,6 +17,6 @@
 }
 
 .logo {
-  width: 50px !important;
+  width: 50px;
   height: auto;
 }
