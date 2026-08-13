@@ -2,7 +2,7 @@
 /*Flexbox most likely needed to align all buttons horizontally*/
 /*<button> or <a> for clickable links?*/
 .website {
-  border: 100px solid green;
+  border-top: 100px solid green;
 }
 
 .topicons {
@@ -16,14 +16,13 @@
   text-decoration: none;
 }
 
-.logo {
-  width: 50px !important;
-  height: auto;
-}
-
 .topicons {
   width: auto;
   height: 100px;
   display: inline-block;
 }
 
+.logo {
+  width: 50px !important;
+  height: auto;
+}
