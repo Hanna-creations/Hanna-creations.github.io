@@ -2,7 +2,7 @@
 /*Flexbox most likely needed to align all buttons horizontally*/
 /*<button> or <a> for clickable links?*/
 .website {
-  border: 1000px solid red;
+  border: 100px solid green;
 }
 
 .topicons {
