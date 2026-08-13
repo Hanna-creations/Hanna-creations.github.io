@@ -16,3 +16,11 @@
   text-decoration: none;
 }
 
+.logo {
+  width: auto;
+  height: 100%;
+}
+
+.topicons {
+  display: inline-block;
+}
