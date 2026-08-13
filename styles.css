@@ -1,9 +1,6 @@
 /*Most likely want a readable and simple font for the working wealth title and slogan underneath*/
 /*Flexbox most likely needed to align all buttons horizontally*/
 /*<button> or <a> for clickable links?*/
-.website {
-  border-top: 100px solid green;
-}
 
 .topicons {
   margin: 15px 45px;
@@ -20,6 +17,7 @@
   width: auto;
   height: 100px;
   display: inline-block;
+  background-color: green
 }
 
 .logo {
