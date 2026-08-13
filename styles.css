@@ -5,18 +5,19 @@
 .button a {
   color: #2a2a2a;
   border: 5px solid white;
-  padding: 10px 25px;
   text-decoration: none;
 }
 
 .topicons {
   width: auto;
   height: 100px;
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  gap: 15px;
   background-color: yellow;
 }
 
 .logo {
-  width: 50px;
+  width: 75px;
   height: auto;
 }
