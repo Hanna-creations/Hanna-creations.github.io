@@ -3,9 +3,7 @@
 /*<button> or <a> for clickable links?*/
 
 .button a {
-  color: #2a2a2a;
-  border: 5px solid white;
-  text-decoration: none;
+  color: white;
 }
 
 .topicons {
@@ -14,10 +12,11 @@
   display: flex;
   align-items: center;
   gap: 15px;
-  background-color: yellow;
+  background-color: gray;
 }
 
 .logo {
   width: 75px;
   height: auto;
-}
+  margin-left: auto;
+
