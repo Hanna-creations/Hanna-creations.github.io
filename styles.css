@@ -12,14 +12,14 @@
   width: auto;
   height: 100px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   gap: 15px;
   background-color: gray;
+  padding: 10px 10px
 }
 
 .logo {
   width: 75px;
   height: auto;
-  margin-left: auto;
-  margin-left: auto;
 
