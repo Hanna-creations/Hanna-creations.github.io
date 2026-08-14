@@ -11,6 +11,7 @@
 .topicons {
   width: auto;
   height: 100px;
+  display: flex;
   align-items: center;
   gap: 15px;
   background-color: gray;
@@ -19,5 +20,6 @@
 .logo {
   width: 75px;
   height: auto;
+  margin-left: auto;
   margin-left: auto;
 
