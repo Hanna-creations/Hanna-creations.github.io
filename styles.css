@@ -5,12 +5,12 @@
 .button a {
   color: white;
   margin-right: auto;
+  gap: 15px;
 }
 
 .topicons {
   width: auto;
   height: 100px;
-  display: flex;
   align-items: center;
   gap: 15px;
   background-color: gray;
