@@ -5,7 +5,8 @@
 .button a {
   color: white;
   margin-right: auto;
-  gap: 15px;
+  gap: 30px;
+  padding: 10px 10px;
 }
 
 .topicons {
@@ -14,12 +15,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 15px;
   background-color: gray;
-  padding: 10px 10px
+  
 }
 
 .logo {
   width: 75px;
   height: auto;
+  padding: 10px 10px;
 
