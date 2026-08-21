@@ -30,3 +30,10 @@ body {
   padding: 0;
 }
 
+.textimg {
+  display: flex;
+  margin-right: 6px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
