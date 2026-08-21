@@ -37,8 +37,8 @@ body {
 }
 
 .textimg {
-  width: 500px;
-  height: 500px;
+  width: 800px;
+  height: 800px;
   margin-right: 12px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -50,8 +50,8 @@ body {
   height: auto;
   margin-left: 12px;
   font-size: 18px;
-  line-height: 2.6;
-  margin-top: 200px;
-  margin-bottom: 200px;
+  line-height: 2.3;
+  margin-top: 300px;
+  margin-bottom: 300px;
 }
 
