@@ -40,11 +40,13 @@ body {
 }
 
 .textimg {
-  width: 175px;
+  width: 300px;
   height: auto;
 }
 
 .secondparttext {
   text-align: center;
+  width: 300px;
+  height: auto;
 }
 
