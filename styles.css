@@ -32,26 +32,36 @@ body {
 
 .secondpart {
   display: flex;
-  justify-content: space-around;
-
+  flex-wrap: wrap;             /* Allows items to stack on small screens */
+  align-items: center;         /* Vertically centers image and text */
+  justify-content: center;     /* Centers contents within the container */
+  gap: 2rem;                   /* Clean spacing between image and text without harsh margins */
+  padding: 4rem 2rem;          /* Vertical and horizontal breathing room */
+  width: 100%;
+  max-width: 1200px;           /* Prevents the section from stretching too wide on giant monitors */
+  margin: 0 auto;              /* Centers the container on the page */
+  box-sizing: border-box;
 }
 
 .textimg {
-  width: 700px;
-  height: 700px;
-  margin-right: 12px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  flex: 1 1 300px;             /* Grows/shrinks dynamically; wraps when smaller than 300px */
+  max-width: 500px;            /* Limits maximum image display size */
+  width: 100%;                 /* Responsive width relative to its flex parent */
+  height: auto;                /* Maintains correct aspect ratio without distortion */
+  object-fit: contain;
 }
 
 .secondparttext {
-  text-align: center;
-  width: 700px;
-  height: auto;
-  margin-left: 12px;
-  font-size: 18px;
-  line-height: 2.3;
-  margin-top: 300px;
-  margin-bottom: 300px;
+  flex: 1 1 300px;             /* Matches image behavior to balance row space */
+  max-width: 500px;            /* Keeps text line lengths comfortable to read */
+  text-align: left;            /* Left-aligned text usually looks cleaner next to images */
+  font-size: 1.125rem;
+  line-height: 1.6;            /* Reduced from 2.3 for tighter, professional spacing */
 }
 
+/* Mobile-specific adjustments */
+@media (max-width: 768px) {
+  .secondparttext {
+    text-align: center;        /* Centers text when stacked on phone screens */
+  }
+}
