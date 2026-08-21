@@ -32,14 +32,16 @@ body {
 
 .secondpart {
   display: flex;
+  justify-content: space-between;
   margin-right: 6px;
   margin-top: 10px;
   margin-bottom: 10px;
+  margin-left: 6px;
 }
 
 .textimg {
   width: 175px;
-  height: 175px;
+  height: auto;
 }
 
 .secondparttext {
